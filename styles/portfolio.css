@@ -1,3 +1,4 @@
+/* Front section */
 .plus-jakarta-sans-normal {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
@@ -5,6 +6,7 @@
     font-variation-settings: "wdth" 100;
 }
 
+/* nav styles */
 nav {
     display: flex;
     align-items: center;
@@ -73,6 +75,12 @@ nav ul {
     align-items: center;
 }
 
+/* Shared style */
+.bg {
+    background-color: #FFF8F3;
+}
+
+/* header styles */
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -97,7 +105,7 @@ nav ul {
     color: #181818;
 }
 
-.banner-content p {
+.all-paragraph {
     font-size: 18;
     font-weight: normal;
     color: #757575;
@@ -110,4 +118,42 @@ nav ul {
 .banner-content {
     height: 356px;
     width: 585px;
+}
+
+/* about section */
+.about-description h3 {
+    align-content: center;
+    font-size: 35;
+    font-weight: bold;
+}
+
+.about {
+    margin: 130px 230px;
+    border-radius: 10px;
+    max-width: 1140px;
+    background-color: #FFF8F3;
+}
+
+.about-description {
+    text-align: center;
+    padding: 110px 100px;
+}
+
+.ask {
+    color: #757575;
+    font-size: 18px;
+}
+
+.ans {
+    font-size: 20;
+    font-weight: bold;
+}
+
+.my-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-pair {
+    margin-top: 0px;
 }
