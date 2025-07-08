@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 /* Front section */
 .plus-jakarta-sans-normal {
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -43,7 +47,7 @@ nav ul {
 .btn-all {
     height: 64px;
     width: 150px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
     background-color: #FD6E0A;
@@ -60,7 +64,7 @@ nav ul {
 .btn-cont {
     height: 64px;
     width: 150px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
     border-radius: 5px;
@@ -88,6 +92,7 @@ nav ul {
 }
 
 .banner {
+    height: 650px;
     display: flex;
     justify-content: space-between;
     margin: 0px 35px 0px 150px;
@@ -106,7 +111,8 @@ nav ul {
 }
 
 .banner-img {
-    max-width: 500px;
+    height: 650px;
+    width: 584px;
 }
 
 .banner-content {
@@ -120,13 +126,15 @@ nav ul {
     font-size: 35;
     font-weight: bold;
 }
+
 .about-description p {
     font-size: 18;
     font-weight: normal;
     color: #757575;
 }
+
 .about {
-    margin: 130px 200px;
+    margin: 100px 200px;
     border-radius: 10px;
     max-width: 1140px;
     background-color: #FFF8F3;
@@ -157,37 +165,107 @@ nav ul {
 }
 
 /* Skill section */
-.skill-description{
+.skill-description {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
 }
-.skill-description h4{
+
+.skill-description h4 {
     font-size: 35px;
     font-weight: bold;
 }
-.skill-description p{
+
+.skill-description p {
     font-size: 18px;
     font-weight: normal;
     color: #757575;
     padding: 0px 230px;
 }
-.skill-des h4{
+
+.skill-des h4 {
     font-size: 20;
     font-weight: bold;
 }
-.skill-des p{
+
+.skill-des p {
     font-size: 16;
     font-weight: normal;
     color: #757575;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     margin: 0px 200px;
     gap: 24px;
 }
-.skill-des{
+
+.skill-des {
     padding: 30px;
     border-radius: 5px;
     background-color: #FFFFFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Starting resume container */
+
+.resume-summary-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FD6E0A;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume {
+    margin: 0px 200px;
+}
+
+.experience-sub-title,
+.experience-description {
+    color: #757575;
+}
+
+.resume-column-title,
+.experience-title {
+    color: #474747;
+}
+.experience-description{
+    font-size: 16px;
+}
+.experience-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.experience-sub-title {
+    font-size: 20px;
+}
+
+.resume-coloum-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume{
+    margin-top: 100px;
+}
+.resume-button {
+    margin-top: 20px;
+    height: 64px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 7px rgba(0, .5, 0, 0.5);
+    cursor: pointer;
+}
+
+.resume-button:hover {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
 }
