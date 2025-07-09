@@ -252,7 +252,7 @@ nav ul {
 .resume{
     margin-top: 100px;
 }
-.resume-button {
+/* .resume-button {
     margin-top: 20px;
     height: 64px;
     width: 150px;
@@ -264,8 +264,44 @@ nav ul {
     border: none;
     box-shadow: 0 5px 7px rgba(0, .5, 0, 0.5);
     cursor: pointer;
-}
+} */
 
 .resume-button:hover {
     background: linear-gradient(90deg, #ff7e5f, #feb47b);
+}
+.footer{
+    /* width: 1600px;
+    height: 780px; */
+    margin-top: 100px;
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 100px;
+}
+.footer-column h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #181818;
+}
+.footer-column p{
+    font-size: 16px;
+    color: #757575;
+    font-weight: normal;
+}
+.footer input[type="text"] , [type=email] , .footer textarea{
+    background-color: #FFFFFF;
+    color: #757575;
+    margin-bottom: 24px;
+    display: block;
+    width: 461px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 0px 0px 20px;
+}
+footer .btn-all{
+    margin-top: 20px;
+}
+footer img{
+    margin-right: 20px;
 }
